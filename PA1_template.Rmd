@@ -12,7 +12,7 @@ Loading and Preprocessing the Data
 1. Load the data ( read.csv())
 ```{r}
 if (!file.exists('activity.csv')) {
-  unzip('repdata-data-activity.zip')
+  unzip('activity.zip')
 }
 activityData<-read.csv('activity.csv')
 ```
